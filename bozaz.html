@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #container {
+            display: flex;
+            height: 600px;
+            justify-content: center;
+        }
+
+        #d1 {
+            /* border: 1px red solid; */
+            width: 38%;
+            margin-left: 30px;
+
+        }
+
+        #d1>h1 {
+            color: #3D73D6;
+            font-size: 40px;
+            }   
+        
+        #d2>h1{
+            color: #3D73D6;
+            font-size: 40px;
+        }
+
+        #d1>hr {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        #d2 {
+            /* border: 1px solid tomato; */
+            width: 50%;
+            margin-left: 50px;
+        }
+       
+        #input{
+            margin-top: 10px;
+            font-size: 20px;
+            background-color: #3D73D6;
+            color: white;
+            border:0px;
+            border-radius: 5px;
+        }
+        #title{
+            margin-top: 2%;
+            margin-bottom: 5%;
+            
+        }
+        #des{
+            margin-top: 2%;
+            margin-bottom: 5%;
+           
+        }
+        #price{
+            margin-top: 2%;
+            margin-bottom: 5%;
+        }
+        #ct{
+            margin-top: 2%;
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="d1">
+            <h1>Add Product</h1>
+            <hr>
+         <form>
+                <label>Category</label><br>
+                <select id="ct">
+                    <optgroup label="choose from">
+                        <option value="Electronics">Electronics</option>
+                        <option value="Furniture">Furniture</option>
+                        <option value="Home Appliance">Home Appliance</option>
+                    </optgroup>
+                </select><br>
+
+                <label>Title</label><br>
+                <input type="text" size="25px"id="title" placeholder="Title"/><br>
+
+                <label>Description</label><br>
+                <textarea type="text" size="25px" id="des"></textarea><br>
+            
+
+                <label>Price</label><br>
+                <input  type="text"  size="25px" id ="price" placeholder="Price"/> <br>
+<!-- <button type="submit">submit</button> // This can work too.  -->
+           <input type="submit" id="input" value="submit">
+        </div>
+    </form>
+        <div id="d2">
+<h1>Product Info</h1>
+<table>
+<hr>
+    <thead>  
+    <tr style="font-weight: bolder;">
+            <td>#</td>
+            <td>Category</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Price</td>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+document.querySelector("form").addEventListener("submit",additems);
+var productinfo=JSON.parse(localStorage.getItem("product"))  ||  [];
+
+// var productinfo=[];
+
+
+function additems(e){
+
+e.preventDefault();
+var Category=document.getElementById("ct").value;
+var Title=document.getElementById("title").value;
+var Description=document.getElementById("des").value;
+var price=document.getElementById("price").value;
+
+var list={
+
+    ctrgy:Category,
+    name:Title,
+    descrp:Description,
+    mrp:price,
+};
+
+productinfo.push(list);
+localStorage.setItem("bozaz",JSON.stringify(productinfo));
+displayitems(productinfo);
+}
+
+function displayitems(productinfo)
+{
+    console.log(productinfo);
+    document.querySelector("tbody").innerHTML="";
+
+    productinfo.map(function(item,index)
+    { 
+
+        var tr=document.createElement("tr");
+
+        var tr1=document.createElement("tr");
+        
+        var tdh1=document.createElement("td");
+        tdh1.innerHTML="<hr>";
+
+        var tdh2=document.createElement("td");
+        tdh2.innerHTML="<hr>";
+
+        var tdh3=document.createElement("td");
+        tdh3.innerHTML="<hr>";
+
+        var tdh4=document.createElement("td");
+        tdh4.innerHTML="<hr>";
+
+        var tdh5=document.createElement("td");
+        tdh5.innerHTML="<hr>";
+
+        var td=document.createElement("td");
+        td.textContent=index+1;
+
+        var td1=document.createElement("td");
+        td1.textContent=item.ctrgy;
+
+        var td2=document.createElement("td");
+        td2.textContent=item.name;
+
+        var td3=document.createElement("td");
+        td3.textContent=item.descrp;
+
+        var td4=document.createElement("td");
+        td4.textContent=item.mrp;
+
+        // var tr1=document.createElement("tr");
+        // // tr1.innerHTML="<hr>";
+        // tr1.textContent="vaibhav";
+        
+        tr.append(td,td1,td2,td3,td4);
+        tr1.append(tdh1,tdh2,tdh3,tdh4,tdh5);
+        // tr1.append(tdh1);
+        // tr.append(tr1);
+        document.querySelector("tbody").append(tr,tr1);
+    });
+
+}
+window.addEventListener("load",function(){
+displayitems(productinfo);
+});
+
+
+</script>
