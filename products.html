@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="product.css">
+</head>
+<body>
+<div id="filterOption">
+   <h3>Filter options</h3>
+        <div class="title">
+            <h2>Gender</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+
+        <div class="title">
+            <h2>Category</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+
+        <div class="title">
+            <h2>Brand</h2>
+            <h2 class="symbol">+</h2>
+        </div>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+        <input type="checkbox" name="" id="">
+        <label for="">men</label> <br>
+    
+</div>
+        
+<div id="sortBox">
+    <div id="zoomInOut">
+      <label for="">Zoom:</label>
+      <img id="zoomIn" src="https://images.koovs.com/uploads/koovs/plus_list.png" alt="">
+      <img id="zoomOut" src="https://images.koovs.com/uploads/koovs/minus_list.png" alt="">
+    </div>
+    <div id="sort">
+     <label for="">Sort by:</label>
+     <select id="sortByPrice" onchange="sortByPrice()">
+        <option value="normal">revealance</option>
+        <option value="high">price high to  low</option>
+        <option value="low">price low to high</option>
+        <option value="new">what's new</option>
+        <option value="discount">high discount</option>
+    </select>
+    </div>
+</div>
+<div id="container">
+    <div id="productContainer"></div>
+</div>
+<button id="load">LOAD MORE</button>
+    <script src="products.js"></script>
+</body>
+</html> 
