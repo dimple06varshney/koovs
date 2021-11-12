@@ -45,7 +45,7 @@
     border: 1px solid black;
 }
 .paymentBox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 67%;
     height: 550px;
     float: left;
@@ -54,7 +54,7 @@
     margin-top:3%;
 }
 .payment-checkout{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 33%;
     height: 500px;
     margin-top: 2%;
@@ -208,6 +208,28 @@ font-size: 30px;
     grid-template-columns: repeat(2,1fr);
     width: 100%;
 }
+/* .priceSectionQuick {
+    position: absolute;
+    right: 0px;
+}
+.priceSection {
+    border: 1px solid red;
+    width: 80%;
+    height: 440px;
+    float: left;
+}
+.priceSection.priceView {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.pay-header .bold {
+    font-weight: 700;
+}
+.pay-header .price-row {
+    clear: both;
+    height: 24px;
+    position: relative;
+} */
 
 /* Upasna payment summary*/
 
@@ -233,10 +255,19 @@ font-size: 30px;
     line-height: 10px;
     font-weight: bolder;
 }
-#lin2{
+.lin2{
     font-size: 13px;
     margin-bottom: 5px;
     margin-top: -15px;
+}
+#lin2{
+    padding-top: 10px;
+}
+.green{
+    /* border: 1px solid orangered; */
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
 }
 #spn{
     color:blue;
@@ -265,10 +296,14 @@ font-size: 30px;
     padding-right: 5px;
     color:green;
     font-size: 13px;
+    margin-top: -5px;
+
+
 }
 #tax{
     text-align: end;
     padding-right: 5px ;
+    margin-top: -5px;
 }
 #li{
           color:gray;
@@ -276,7 +311,32 @@ font-size: 30px;
           margin-top: 2px;
           line-height: 40px;
 }
-
+.paymentL{
+    width: 87%; 
+    float: right; 
+    margin-top: 20px;
+}
+.payment-address{
+    /* border: 1px solid black; */
+    height: 200px;
+    margin-top: 50px;
+    float: right;
+    width: 90%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold{
+padding-left: 40px;
+font-weight: 700;
+    margin-bottom: 10px;
+}
+.normal{
+    padding-left: 40px;
+    margin-bottom: 8px;
+}
+.address{
+    padding-left: 40px;
+}
 
 
 
