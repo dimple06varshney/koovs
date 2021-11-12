@@ -128,17 +128,17 @@ a{
     width: 95%;
 }
 .DmenMenu, .DwomenMenu{
-    width: 120%;
+    width: 140%;
     margin: auto;
     border: 1px solid #ccc;
     opacity: 1;
     box-shadow: 1px 1px 4px #ccc;
     position: absolute;
     top: 32px;
-    left: -30%;
+    left: -44%;
     display: none;
     grid-template-columns: 20% 20% 15% 15% 30%;
-    height: 350px;
+    height: 360px;
     z-index: -1;
 }
 /* .DmenMenu{
