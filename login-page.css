@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ::after, ::before {
+    box-sizing: border-box;
+}
+.login-page{
+    border: 5px solid whitesmoke;
+    height: 730px;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Ltitle{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    padding:0px;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+.Limg-social{
+    width: 24px;
+    height: 24px;
+}
+.Llink1{
+    border: 1px solid rgb(230, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    height: 50px;
+}
+.Lgoogle{
+    width: 40%;
+    cursor: pointer;
+}
+.Lfacebook{
+    width: 40%;
+    cursor: pointer;
+}
+.Llink2{
+    margin-left: 20px;
+}
+.Ltitle-content{
+    color: #9f9b9d;
+    padding-left: 14%;
+    padding-top: 4%;
+    font-size: 16px;
+    text-align: justify;
+
+}
+.Lsocialwith{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.Lsocial-site{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.Ltext-social{
+    padding-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: medium;
+    font-weight: 580;
+    padding-bottom: 5px;
+}
+.login-form{
+    margin-top: 5%;
+}
+.login-page{
+    overflow: hidden;
+    width: calc(100vw - 65vw);
+    max-width: 100%;
+}
+@media(max-width:998px) {
+.login-page {
+width: calc(100vw - 25vw);
+max-width: 100%;
+}
+}
+.Lform{
+padding: 40px;
+flex: 1;
+display: grid;
+grid-gap: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+    .Lform {width:240px!important; padding:0;}	
+    .Lform-control {text-align: center!important;}	 
+      }
+.Lform-control{
+margin-bottom: 20px;
+position: relative;
+display: grid;
+width: 98%;
+margin: auto;
+}
+.Lform-control input{
+width: 100%;
+border: 2px solid #f0f0f0;
+border-radius: 5px;
+height: 45px;
+padding-left: 5px;
+display: block;
+font-size: 14px;
+}
+.Lform-control input:focus{
+outline: 0;
+border-color: #777;
+}
+.loginBtn{
+    background-color: black;
+border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 5px 2px;
+cursor: pointer;
+width: 266px;
+height: 60px;
+font-size: 16px;
+font-weight: 700;
+border-radius: 5px;
+box-shadow: 0 2px 8px 0 rgb(99 99 99 / 20%);  
+cursor: pointer;  
+}
+@media only screen and (max-width: 300px) {
+    .Ltitle-content {
+      text-align: center;
+    }
+  }
+.loginbtn{
+text-align: center;
+padding-top: 25px;
+}
+.reset-create{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 15px;
+    cursor: pointer;
+    }
+    .forgot-pass{
+    color: black;
+    }
+    .new-acc{
+    color: #747b88;
+    font-style: normal;
+    font-weight: bolder;
+    }
+    .acc{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    }
+.field-icon {
+float: right;
+margin-left: -25px;
+margin-top: -25px;
+position: relative;
+z-index: 2;
+}
+
+.span{
+    position: absolute;
+    right: 15px;
+    transform: translate(0,-50%);
+    top: 32%;
+    cursor: pointer;
+}
+.fa{
+    font-size: 20px;
+    color: #7a797e;
+}
+#gif{
+    visibility: hidden;
+}
+#Lreg-error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    min-height: 26px;
+    margin-left: 5px;
+    visibility: hidden;
+
+@media(max-width:998px) {
+#Lreg-error {
+width: calc(100vw - 35vw);
+max-width: 100%;
+}
+     
+#Lpwd-reg-error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    min-height: 26px;
+    margin-left: 5px;
+}
+input[type=radio]{
+    width: auto;
+    height: auto;
+}
+@media only screen and (max-width: 767px){
+#login-loader {
+    left: 35vw;
+    margin-top: 10px;
+}
+
+@media(max-width:998px) {
+    .Lform-control {
+    width: calc(100vw - 25vw);
+    max-width: 100%;
+    }
+    }

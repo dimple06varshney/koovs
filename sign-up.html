@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koovs Signup/Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@800&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sign-up.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+</style>
+</head>
+<body>
+    <div class="signup-page">
+        <div class="signup-header">
+            <div class="title">Sign Up</div>
+            <div class="title-content">Sign up to get access to exciting offers
+                <div class="text-break">and promotions
+
+                </div>
+            </div>
+                <h2 class="socialwith">Continue With
+
+                </h2>
+                <div class="social-site">
+                    <div class="google">
+                        <div class="link1">
+                       <a href="shorturl.at/eyBS9"><img src="https://images.koovs.com/uploads/koovs/koovsglogo.jpg" alt="Login With Google" title="Login With Google" class="img-social"></a> 
+                        <span class="text-social">Google</span>
+                    </div>
+                    </div>
+                    <div class="facebook">
+                        <div class="link1 link2">
+                        <a href=shorturl.at/ejBEL"> <img src="https://images.koovs.com/uploads/koovs/koovsflogo.jpg" alt="Login With Facebook" title="Login With Facebook" class="img-social"></a>
+                        <span class="text-social">Facebook</span>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="signup-form">
+            <form id="form" class="form" autocomplete="off">
+                
+                    <div class="form-control">
+                        <input type="text" id="username" placeholder="Full Name" maxlength="40" autocomplete="new-name" >
+                        <!-- <i class="fa-check"></i>
+                        <i class="fa-exclamation-circle"></i> -->
+                         <small id="reg-error">Please enter a valid name</small>
+                        
+                    </div>
+                    <div class="form-control">
+                        <input type="email" id="email" placeholder="Email" autocomplete="new=nemail">
+                        <small id="reg-error">Please enter a valid email</small>
+                        <!-- <i class="fa-check"></i>
+                        <i class="fa-exclamation-circle"></i>
+                        <small>Error Msg</small> -->
+                    </div>
+                    <div class="form-control">
+                        <input type="password" id="password" placeholder="Password" autocomplete="new-password">
+                        <!-- <span id="showpwd">SHOW</span> -->
+                        <span class="span">
+                            <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                        </span>
+                        <!-- <i class="fa-check"></i>
+                        <i class="fa-exclamation-circle"></i> -->
+                        <small id="pwd-reg-error" style="color: red; visibility: hidden;">Must contain at least one lowercase one uppercase letter a number a special character and length must be in between 6-20</small> 
+                    </div>
+                    <div class="form-control">
+                        <input type="number" id="number" placeholder="Mobile Number" autocomplete="new-mobile">
+                        <!-- <i class="fa-check"></i>
+                        <i class="fa-exclamation-circle"></i> -->
+                        <small id="reg-error">Mobile accepts only numbers</small> 
+                    </div>
+                
+                
+                <div class="gender">
+                    <span class="gender1 ">
+                        <input type="radio" name="Gender" value="Male"  id="gen" class="gen">
+                        <label>Male</label> 
+                    </span>
+                    <span class="gender1 gender2">
+                        <input type="radio" name="Gender" style="padding-left: 100px;" value="Female" id="gen" class="gen">
+                        <label>Female</label>  
+                    </span>
+                    
+                </div>
+                <div class="checkBox-content">
+                    <input type="checkbox" name="check-box" id="check-box" class="check-box">
+                    <label id="ref-check">
+                            <span class="check-text">Got a referral code? Apply on the next step</span>
+                    </label>
+                   
+                </div>
+                    <div class="signbtn">
+                        <button type="submit" value="SIGN UP" class="signupBtn">SIGN UP</button>
+                        <div id="signup-loader">
+                            <img src="https://images.koovs.com/uploads/koovs/loader-signup.gif" class="gif" alt="" width="40px">
+                        </div>
+                    </div>
+                    <div class="acc">Already have an account? <a href="login-page.htm" class="signin">Sign In</a></div>
+                    <div class="terms">
+                        <span class="by-create">By creating an account, I agree to Koovs </span>
+                        <span class="policy">Terms of Use and Privacy Policy</span>
+                    </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="sign-up.js">
+   
+
+</script>
