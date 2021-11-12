@@ -1,5 +1,6 @@
 # koovs
-Our first project
+# Our first project
+# E-Commarance Website
 
-completed
-signup,login,resetpwd,resetform files
+# Completed
+# signup,login,resetpwd,resetform files
