@@ -98,7 +98,7 @@ margin-top:5%;
 /* -----------slider2 code ---------------- */
 div#slider {
     overflow: hidden;
-    border:1px solid green;
+/*     border:1px solid green; */
 }
 div#slider figure img {
     width: 33.3%;
@@ -128,7 +128,7 @@ div#slider1 {
     position: sticky;
     overflow: hidden;
     margin-bottom: 3%;
-    border:1px solid red;
+/*     border:1px solid red; */
 }
 div#slider1 figure img {
     /* width: 33.3%; */
