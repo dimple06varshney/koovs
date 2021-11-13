@@ -1,0 +1,53 @@
+.popUpAddress{
+    border: 1px solid gray;
+    width: 45%;
+    height: 600px;
+    margin: auto; 
+    margin-top: 60px;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.popupheader{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.popheader1{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.fa-times{
+    font-size: 15px;
+    padding-top: 23px;
+    padding-left: 300px;
+}
+:root{
+    --color-secondary:#828282;
+    --text-color-contrast:#ffffff;
+}
+.confirm-btn{
+    background: var(--color-secondary);
+    color: var(--text-color-contrast);
+    text-align: center;
+    padding: 10px;
+    width: 240px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 3px;
+}
+.form-field{
+    margin: 12px auto;
+    
+}
+.form-field input {
+width: 95%;
+border-style: solid;
+border-bottom: 1px solid #d1d1d1;
+height: 28px;
+}
