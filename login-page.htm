@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koovs Signup/Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@800&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="login-page.css">
+<style>
+
+</style>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-header">
+            <div class="Ltitle">Log In</div>
+            <div class="Ltitle-content">Sign in to access your Orders, Wishlist and Recommendations</div>
+                <h2 class="Lsocialwith">Continue With
+
+                </h2>
+                <div class="Lsocial-site">
+                    <div class="Lgoogle">
+                        <div class="Llink1">
+                       <a href="shorturl.at/eyBS9"><img src="https://images.koovs.com/uploads/koovs/koovsglogo.jpg" alt="Login With Google" title="Login With Google" class="Limg-social"></a> 
+                        <span class="Ltext-social">Google</span>
+                    </div>
+                    </div>
+                    <div class="Lfacebook">
+                        <div class="Llink1 Llink2">
+                        <a href=shorturl.at/ejBEL"> <img src="https://images.koovs.com/uploads/koovs/koovsflogo.jpg" alt="Login With Facebook" title="Login With Facebook" class="Limg-social"></a>
+                        <span class="Ltext-social">Facebook</span>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="login-form">
+            <form id="Lform" class="Lform" autocomplete="off">
+                <h3 class="Lsocialwith">Using Email
+
+                </h3>
+                    <div class="Lform-control">
+                        <input type="email" id="Lemail" placeholder="Email" autocomplete="new=nemail">
+                        <small id="Lreg-error">Please enter a valid email</small>
+                    </div>
+                    <div class="Lform-control">
+                        <div id="error"></div>
+                        <input type="password" id="Lpass" placeholder="Password" autocomplete="new-password">
+                        <span class="span">
+                            <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                        </span>
+                        <small id="Lpwd-reg-error" style="color: red; visibility: hidden;" >Must contain at least one lowercase one uppercase letter a number a special character and length must be in between 6-20</small> 
+                    </div>
+                    <div class="loginbtn">
+                        <button type="submit" value="LOG IN" class="loginBtn">LOG IN</button>
+                        <div id="login-loader">
+                            <img src="https://images.koovs.com/uploads/koovs/loader-signup.gif" alt="" width="40px" id="gif">
+                        </div>
+                    </div>
+                    <div class="reset-create">
+                        <div class="forgot-pass">Reset Password <a href="https://www.koovs.com/signup/forgot-password"></a></div>
+                        <div class="new-acc ">New to Koovs? <a href="sign-up.html" class="acc">Create Account</a></div>
+                    </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="login-page.js">
+   
+</script>
