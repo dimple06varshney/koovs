@@ -1,0 +1,373 @@
+:root{
+    --main-headerfont-size:19px;
+    --main-headerfontcolor:black;
+    --main-headerfontweight:bolder;
+    --line-linecolor:black;
+    --line-lineborder:20px;
+    --text-color-danger:red;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+*,::after ::before{
+    box-sizing: border-box;
+}
+.payment-header1{
+    width: 200px;
+    margin: auto;
+}
+.payment-header1>img{
+    width: 200px;
+    padding-top: 10%;
+}
+.line{
+    border: 1px solid #d1d1d1; 
+    background-color: #d1d1d1; 
+    margin-top: 1%;
+}
+.payment-header2{
+    display: grid; 
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.bagMode{
+    font-size: var(--main-headerfont-size);
+    font-weight: var(--main-headerfontweight);
+    margin: auto;
+}
+.bagline{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.paymentBox{
+    /* border: 1px solid red; */
+    width: 67%;
+    height: 550px;
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top:3%;
+}
+.payment-checkout{
+    /* border: 1px solid green; */
+    width: 33%;
+    height: 500px;
+    margin-top: 2%;
+    position: absolute;
+    right: 0;
+}
+.payment-middle{
+    display: flex;
+}
+.payTitle{
+    width: 100%;
+    color: #000;
+}
+.paymentOption{
+    border: 1px solid #ccc;
+    width: 100%;
+    float: left;
+    height: 475px;
+    min-height: 400px;
+}
+.paymentList{
+    width: 232px;
+    display: block;
+    float: left;
+    background: #efefef;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(239, 239, 239);
+    min-height: 475px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.paymentList li {
+padding: 17px 4px 17px 15px;
+background: #efefef;
+cursor: pointer;
+font-size: 12px;
+color: #000;
+display: grid;
+grid-template-columns: 25% 1fr;
+border-radius: 4px;
+}
+.card-title{
+display: flex;
+align-items: center;
+font-weight: var(--main-headerfontweight);
+font-size: 13px;
+}
+.card-swapper{
+display: inline-block;
+}
+#fafa{
+/* border: 1px solid red; */
+padding: 5px;
+font-size: 30px;
+}
+
+.paymentCard {
+    width: 72%;
+    display: block;
+    padding-top: 28px;
+    padding-left: 250px;
+}
+.paymentCard .accordion {
+    margin: 0 auto;
+    width: 85%;
+}
+.payTitle {
+    width: 100%;
+    color: #000;
+}
+.paymentCard .formField {
+    width: 86%;
+    margin-bottom: 11px;
+    position: relative;
+    /* clear: both; */
+}
+.formField .inputField {
+    border-bottom: 1px solid #95989a;
+    padding-bottom: 5px;
+    height: 34px;
+    width: 90%;
+    font-size: 12px;
+}
+.cardContent .errorCard {
+    font-size: 9px;
+    color: var(--text-color-danger);
+    height: 11px;
+    padding-top: 2px;
+}
+.expDate {
+    width: 100%;
+    float: left;
+    margin-bottom: 11px;
+}
+.expiryinputField{
+    border: 0;
+    border-bottom: 1px solid #95989a;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: 0 0;
+    -webkit-appearance: none;
+}
+.inputFieldhalf {
+    width: 30%;
+}
+.cvvImage {
+    width: 32px;
+    margin: 0 10px;
+}
+.cvvMsg {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+.paymentCard .confirmBtn {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 304px;
+    padding-bottom: 12px;
+    margin: 10px 0;
+    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.paymentList{
+    margin-top: -2px;
+}
+#formFlex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+/* .priceSectionQuick {
+    position: absolute;
+    right: 0px;
+}
+.priceSection {
+    border: 1px solid red;
+    width: 80%;
+    height: 440px;
+    float: left;
+}
+.priceSection.priceView {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.pay-header .bold {
+    font-weight: 700;
+}
+.pay-header .price-row {
+    clear: both;
+    height: 24px;
+    position: relative;
+} */
+
+/* Upasna payment summary*/
+
+.pricesummary{
+    color: gray;
+    font-weight: lighter;
+    padding-left: 65px;
+}
+.price{
+    display:grid;
+    grid-template-columns: 55% 5% 35%;
+    font-size: 13.5px;
+    margin-top: 0px;
+    margin-left: 65px;
+}
+.price div{
+    padding-top: 5px;
+    height: 28px;
+}
+#lin1{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: bolder;
+}
+.lin2{
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
+#lin2{
+    padding-top: 10px;
+}
+.green{
+    /* border: 1px solid orangered; */
+    margin-top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+#spn{
+    color:blue;
+    margin-left: 5%;
+    font-size: 12px;
+}
+#spn2{
+  color: blue;
+  margin-left: 10px;
+}
+#amount{
+    text-align: end;
+    float:right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+#total{
+  text-align: end;
+    float:right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+#green{
+  text-align: end;
+    float:right;
+    padding-right: 5px;
+    color:green;
+    font-size: 13px;
+    margin-top: -5px;
+
+
+}
+#tax{
+    text-align: end;
+    padding-right: 5px ;
+    margin-top: -5px;
+}
+#li{
+          color:gray;
+          font-size: 9px;
+          margin-top: 2px;
+          line-height: 40px;
+}
+.paymentL{
+    width: 87%; 
+    float: right; 
+    margin-top: 20px;
+}
+.payment-address{
+    /* border: 1px solid black; */
+    height: 200px;
+    margin-top: 50px;
+    float: right;
+    width: 90%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold{
+padding-left: 40px;
+font-weight: 700;
+    margin-bottom: 10px;
+}
+.normal{
+    padding-left: 40px;
+    margin-bottom: 8px;
+}
+.address{
+    padding-left: 40px;
+}
+
+.btn{
+    margin-top:20px;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,19%);
+    margin-left: 2%;
+  }
+  button{
+    font-size: 16px;
+    font-weight: bold;
+    border:transparent;
+    background-color: transparent;
+  }
+  .lin>p{
+    border:1px solid ;
+    text-align: center;
+    width:100%;
+    margin-top: 10px;
+  }
+  #orderbtn{
+   padding: 0px;
+  }
+  #bagbtn{
+    float:right;
+    margin-right: 10%;
+  }
+  #paybtn{
+    float:left;
+    margin-left: 10%;
+  }
+
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment1.css">
+</head>
+<body>
+    <div class="btn">
+        <div><button id="bagbtn">MY BAG</button></div>
+        <div class="lin"><p></p></div>
+        <div><button id="orderbtn">ORDER SUMMARY</button></div>
+        <div class="lin"><p></p></div>
+       <div><button id="paybtn">PAYMENT</button></div>
+    </div>
+
+<div id="wholeContainer">
+
+    <div class="payment-header">
+        <div class="payment-header1">
+            <img src="https://images.koovs.com/uploads/koovs/logo.jpg" alt="Koovs">
+        </div>
+        <hr style="margin-top:5px;"> 
+    </div>
+
+    <div id="container" style="margin-top:30px;">
+
+            
+    </div>
+    <div class="payment-middle">
+        <div class="paymentBox">
+            <div class="payTitle">SELECT PAYMENT OPTION</div>
+            <div class="paymentOption">
+                <ul class="paymentList">
+                    <li class="active">
+                        <div class="card-swapper">
+                            <div class="fa fa-credit-card" id="fafa"></div>
+                        </div>
+                        <div class="card-title">CREDIT CARD</div>
+                    </li>
+                    <li class="active">
+                        <div class="card-swapper">
+                            <i class="fa fa-credit-card" aria-hidden="true" id="fafa"></i>
+                        </div>
+                        <div class="card-title">DEBIT CARD</div>
+                    </li>
+                    <li class="active">
+                        <div class="card-swapper">
+                            <i class="fa fa-bank" aria-hidden="true" id="fafa"></i>
+                        </div>
+                        <div class="card-title">NET BANKING</div>
+                    </li>
+                    <li class="active">
+                        <div class="card-swapper">
+                            <i class="fa fa-google-wallet" aria-hidden="true" id="fafa"></i>
+                        </div>
+                        <div class="card-title">WALLET/UPI</div>
+                    </li>
+                    <li class="active">
+                        <div class="card-swapper">
+                            <i class="fa fa-money" aria-hidden="true" id="fafa"></i>
+                        </div>
+                        <div class="card-title">CASH ON DELIVERY</div>
+                    </li>
+                </ul>
+                <div class="paymentCard">
+                    <div class="accordion">
+                        <div class="payTitle">
+                            <h3>CREDIT CARD</h3>
+                        </div>
+                        <form autocomplete="off">
+                            <input type="text" autocomplete="false" name="hidden" style="display: none;">
+                                <div class="cardContent">
+                                    <div class="formField">
+                                        <label>CARD NUMBER</label> <br><br>
+                                        <input type="tel" name="field1" autocomplete="nope" maxlength="NaN" class="inputField" value placeholder="XXXX XXXX XXXX XXX" required >
+                                        <div class="errorCard"></div>
+                                    </div>
+                                    <div class="formField" id="formFlex">
+                                        <div class="expDate">
+                                            <label>Expiry Month</label>
+                                            <br>
+                                            <select name="" class="expiryinputField">
+                                                <option value="0">XX</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <div class="errorCard"></div>
+                                        </div>
+                                        <div class="expDate">
+                                            <label for="">Expiry Year</label>
+                                            <br>
+                                            <select name="" id="" class="expiryinputField">
+                                                <option value="0">XXXX</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                                <option value="2029">2029</option>
+                                                <option value="2030">2030</option>
+                                                <option value="2031">2031</option>
+                                                <option value="2032">2032</option>
+                                                <option value="2033">2033</option>
+                                                <option value="2034">2034</option>
+                                            </select>
+                                            <div class="errorCard"></div>
+                                        </div>
+                                    </div>
+                                    <div class="formField">
+                                        <label for="">CVV</label>
+                                        <input type="password" name="CVV" autocomplete="off" maxlength="3" class="inputFieldhalf" placeholder="XXX" required>
+                                        <img src="https://images.koovs.com/uploads/koovs/creditcard.png" alt="" class="cvvImage">
+                                        <div class="cvvMsg">
+                                            <span>Last 3 digit printed</span><br>
+                                            <span>on the back of card</span>
+                                        </div>
+                                        <div class="errorCard"></div>
+                                    </div>
+                                    <div class="formField">
+                                        <label for="" style="display: none;">Name on the Card</label>
+                                        <input type="text" autocomplete="off" class="inputField" placeholder="Name on the Card" required>
+                                        <div class="errorCard"></div>
+                                    </div>
+                                </div>
+                                <div class="confirmBtn" id="confirmBtn"><span>PAY NOW</span></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="payment-checkout">
+         
+        <h5 class="pricesummary">PRICE SUMMARY</h5>
+            <div class="price">
+                 <div id="lin1">BAG TOTAL<span id="spn">Details</span></div>
+                 <div id="lin1">:</div>
+                 <div id="amount">00</div>
+                 <div class="lin2" id="lin2">SHIPPING CHARGES<span id="spn2"><i class="fa fa-info-circle" aria-hidden="true"></i></span></div>
+                 <div class="green">:</div>
+                 <div id="green">FREE</div>
+                 <div class="lin2" id="lin2">APPLICABLE TAX & CHARGES</div>
+                 <div class="green">:</div>
+                 <div id="tax">0</div>
+                 <div id="lin1">TOTAL PAYABLE<p id="li">PRICES INCLUSIVE OF ALL TAXES</p></div>
+                 <div id="lin1">:</div>
+                 <div id="total">total</div>
+            </div>
+            <hr class="paymentL">
+            <div class="payment-address">
+                <div class="address">DELIVERY ADDRESS</div>
+                <div id="Name" class="bold">NAME</div>
+                <div id="Address" class="normal">ADDRESS</div>
+                <div><span id="City" class="normal">CITY,</span><span id="State" class="normal"> STATE,</span><span id="Pincode" class="bold">PINCODE</span></div>
+                <div id="Phone" class="bold">NUMBER</div>
+                <div id="Email" class="bold">EMAIL</div>
+            </div>
+    </div>
+
+    <script src="payment1.js"></script>
+</body>
+</html>

@@ -1,0 +1,357 @@
+*{
+    font-family: 'Avenir Next',sans-serif;
+}
+
+#addressbox{
+    border:1px solid grey;
+    width:50%;
+    height:250px;
+    display:grid;
+    grid-template-columns: 12% 69% 19%;
+}
+#rd{
+    margin-left: 10px;
+    width:20px;
+    height:18px;
+    margin-top: 8px;
+}
+#default{
+    height:18px;
+    font-size: 12px;
+    text-align: center;
+    padding-top:5px;
+    color:white;
+    background-color: green;
+}
+#address{
+    margin-top: 8px;
+}
+#address>div{
+    height:28.5px;
+}
+#edit{
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#expectdelivery{
+    font-size: 11.5px;
+    color:green;
+    margin-bottom: 0px;
+}
+.nameline{
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.addline{
+   font-size: 13px;
+   color:rgb(58, 56, 56)
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    color:#3a3939;
+    font-weight: 600;
+    padding: 15px;
+    border:3px solid rgb(163, 162, 162);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.footbox{
+    border:1px solid gray;
+    border-right: none;
+    border-left: none;
+    display:grid;
+    grid-template-columns: repeat(3,33%);
+    height:55px;
+}
+.footbox2{
+    display:grid;
+    grid-template-columns: 20% 70%;
+    text-align: center;
+    margin-left: 10%;
+}
+.footbox2>div{
+    padding-top: 10px;
+    color:rgb(94, 92, 92);
+}
+#logo{
+    width:80%;
+    height:50%;    
+}
+#scnd{
+    vertical-align: top;
+    font-size: 11px;           
+}
+#scndd{
+    vertical-align: top;
+    font-size: 11px;
+    text-align: start;
+    margin-left: 15px;
+}
+#sm{
+    font-size: 10px;
+}
+#ulast-line{
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color:#3d3d3d;
+}
+.btn{
+  align-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5,19%);
+  margin-left: 2%;
+}
+button{
+  font-size: 16px;
+  font-weight: bold;
+  border:transparent;
+  background-color: transparent;
+}
+.lin>p{
+  border:1px solid ;
+  text-align: center;
+  width:100%;
+  margin-top: 10px;
+}
+#orderbtn{
+ padding: 0px;
+}
+#bagbtn{
+  float:right;
+  margin-right: 10%;
+}
+#paybtn{
+  float:left;
+  margin-left: 10%;
+}
+.two{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width:80%;
+  gap:5%;
+  margin: auto;
+}
+.part2>h5{
+  margin-top: 0px;
+}
+#pro button{
+  width: 27%;
+  height: 31px;
+  background-color: black;
+  font-weight: normal;
+}
+#promo{
+  width:70%;
+  height:25px;
+  font-size: 14px;
+}
+#promobtn{
+  margin-left: -5px;
+  font-size: 12px;
+  color: whitesmoke;
+  vertical-align: top;
+}
+#offer{
+  margin-top: 30px;
+}
+#code{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-top: -10px;
+}
+#code button{
+border: transparent;
+font-size: 12px;
+height: 100%;
+}
+#code h5{
+  margin-top: 0px;
+  font-size: 13px;
+}
+#code div{
+  border:1px solid gray;
+  padding:10px;
+  padding-bottom: 0px;
+}
+#line1{
+  margin-top: -20px;
+  font-size: 12px;
+  color:rgb(46, 45, 45);
+}
+#line2{
+  margin-top: -12px;
+  font-size:12px ;
+  color:grey;
+}
+.price{
+  display:grid;
+  grid-template-columns: 55% 5% 35%;
+  font-size: 11px;
+  margin-top: -10px;
+}
+.price div{
+  padding-top: 5px;
+  height: 28px;
+}
+#lin1{
+  font-weight: bold;
+  font-size: 12px;
+}
+#lin2{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+#spn{
+  color:blue;
+  margin-left: 20%;
+  font-size: 12px;
+}
+#spn2{
+color: blue;
+margin-left: 10px;
+}
+#amount{
+  text-align: end;
+  float:right;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#total{
+text-align: end;
+  float:right;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#green{
+text-align: end;
+  float:right;
+  padding-right: 5px;
+  color:green;
+  font-size: 12px;
+}
+#tax{
+  text-align: end;
+  padding-right: 5px ;
+  font-size: 12px;
+}
+#li{
+  color:gray;
+  font-size: 9px;
+  margin-top: 2px;
+}
+#lastbtn{
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  color:whitesmoke;
+  font-size: 14px;
+  margin-top: 8px;
+}
+#lastgap{
+  height: 100px;
+}
+#num{
+  font-size: 13px;
+  font-weight: bold;
+  color:rgb(49, 49, 49);
+  margin-bottom: 20px;
+}
+#productContainer{
+ border:1px solid rgb(175, 170, 170);
+ display:grid;
+ grid-template-columns: 12% 56% 10% 2% 3%;
+ gap:25px;
+ padding:5px;
+ margin-bottom: 10px;
+}
+#im{
+  width:97px;
+  height:110px;
+}
+#cross{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+#productName{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: -15px;
+    margin-top: 3px;
+}
+#subname{
+    color:grey;
+    font-size: 13px;
+    margin-left: 10px;
+}
+select{
+    border: 1px solid;
+    width:95px;
+    height: 90%;
+}
+select>option{
+    font-size: 11px;
+}
+#sizeqty{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-left: -15px;
+    margin-top: 10px;
+}
+#sz{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:8px;
+}
+#qty{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+#counter{
+    width:100px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+#counter>div{
+    text-align: center;   
+}
+#count{
+  border:1px solid ;
+  border-left: none;
+}
+#inc{
+    border: 1px solid;
+    border-left: none;
+}
+#dec{
+    border:1px solid;
+}
+#rate{
+    display:grid;
+    grid-template-columns: 15% 15% 20% 40%;
+    margin-left: -15px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+#currentPrice{
+    font-weight: bold;
+    font-size: 13.5px;
+}
+#previousPrice{
+    font-size: 13.5px;
+    text-decoration:line-through;
+}
+#discount{
+    color:red;
+    font-weight: bold;
+    font-size: 13.5px;
+    text-align: center;
+}
