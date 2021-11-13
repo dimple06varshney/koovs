@@ -1,0 +1,55 @@
+.utop{
+    padding-top: 10px;
+        text-align: center;
+        margin:auto;
+    }
+    #uline{
+        color:#919191;
+    }
+    .uhead{
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width:50%;
+        margin: auto;
+    }
+    .uhead>h5{
+        width:33%;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .ubox1{
+       padding-top: 0px;
+       vertical-align: top;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+    }
+    .uhead>div{
+        width:33%;
+        margin-top: -20px;
+        padding-top: 20px;
+        border:2px solid #919191;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+    }
+    .fas{
+        margin-top: -2px;
+    }
+    .umid{
+        margin-top: 60px;
+        color:#494848;
+    }
+    .umid2{
+        text-align: center;
+        padding:10px;
+        color:#494848;
+        margin-top: 40px;
+    }
+    .umid3{
+        margin-top: 60px;
+        text-align: center;
+        padding:10px;
+        color:#494848;
+    }
