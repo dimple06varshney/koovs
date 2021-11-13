@@ -1,0 +1,201 @@
+.ufooter{
+    font-family:'Avenir Next',sans-serif;
+   background-color: #F3F3F3;
+   padding-top: 10px;
+   border:1px solid rgb(170, 166, 166);
+   border-left: none;
+   border-right: none;
+   border-bottom: none;          
+}
+.ufooter ul{
+   list-style: none;
+   padding-left: 0px;
+}
+.ufooter a{
+   color: #333333;
+}
+.urow{
+   display: flex;
+   flex-wrap: wrap;
+   margin:auto;
+   width:1200px;    
+                    
+   margin-top: 10px;
+   margin-right: 1px;
+   margin-left: 40px;
+}
+.ufooter-col{
+   width:18.7%;           
+   gap: -5px;
+   padding: 5px;
+   text-align: start;
+   gap:20px;
+}
+.ufooter-col>h5{
+   font-size: 11px;
+   color:#4b4d4d;
+   text-transform: capitalize;
+   font-weight:800;
+   position: relative;
+   margin-bottom: -5px;
+}
+.ufooter-col ul li:not(:last-child){
+   margin-bottom: 2px;
+}
+.ufooter-col ul li a{
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  line-height: 18px;
+}
+.ub-box{
+  column-count: 2;
+  gap: 5px;
+}
+#uneed{
+  width:130px;
+  margin-left: 20px;
+}
+#ucontact{
+  width:130px;
+  margin-left: 60px; 
+  margin-right: 20px;
+}
+#ulast-col{
+  width:190px;
+  margin-left: 60px;
+  float: right;
+}
+#ucat{
+  width:230px;
+  margin-right: 5px;
+}
+#ubrand{
+  width:220px;
+  margin-right:5px;
+}
+.fab{
+  margin-top: 30px;
+  margin-right: 15px;    
+  color:black;      
+}
+#uim{
+  height:30px;
+  width:190px;
+  margin-top: 10px;
+}
+#ulast-line{
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  color:#333333;
+}
+.uabout{
+font-size: 14px;
+margin-left: 20px;
+color: #333333;
+}
+.uaboutbutton{
+  border:none;
+  width:80px;
+  font-size: 11px;
+  float: right;
+  color: #333333;
+  background-color: transparent;
+}
+.uaboutbutton::after{
+ content:"EXPAND +"
+}
+.uaboutbutton--active::after{
+  content:"CLOSE -";         
+}
+.uaboutcontent{
+display:none;
+  overflow:auto;
+  padding-right:10px;
+  font-size: 13.5px;
+}
+.uaboutcontent>h2{
+  font-size: 27px;
+  font-weight: bolder;
+}
+.uaboutcontent>h3{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.uaboutbutton--active+.uaboutcontent{
+   display: block;
+}
+.uaboutbold{
+   font-weight: bold;
+}
+.uaboutbold a{
+text-decoration: none;
+}
+.ubox2{
+margin: auto;
+width: 90%;
+margin-top: 20px;
+}
+.uabbutton--active+.uabcontent{
+   display: block;
+}
+.uab{
+font-size: 13px;
+margin-left: 20px;
+color: #333333;
+}
+.ubold{
+  font-weight: 800;
+  color:#4b4d4d;
+  font-size: 11px;
+  display:grid;
+  grid-template-columns: 80% 10%;
+}
+.uabbutton{
+  border:none;
+  width:80px;
+  font-size: 11px;
+   float:right !important;
+  vertical-align: top;
+  color: #333333;
+  background-color: transparent;
+}
+.uabbutton::after{
+ content:"EXPAND +"
+}
+.uabbutton--active::after{
+  content:"CLOSE -";         
+}
+.uabcontent{
+   display: none;
+  overflow:auto;
+  padding-right:10px;
+  font-size: 11px;
+  gap: 5px;
+  font-weight: normal;
+  line-height: 19px;
+}
+.uabcontent a{
+  text-decoration: none;
+}
+#uimb{
+  width:100%;
+  margin-bottom: 5%;
+  height:50%;
+}
+@media screen and (max-width:900px){
+   .ufooter-col{
+       display: none;
+   }  
+   .ubox1{
+       margin: auto;
+       width:88%;
+       padding-left: 10px;
+   }      
+}
+@media screen and (min-width:901px){
+.ubox2{
+     display:none;
+}
+}
