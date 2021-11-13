@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css
+    ">
+    <style>
+        img{
+            height:400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="popUpAddress" id="additionalPage">
+        <form id="addressForm">
+        <div class="sticky">
+            <div class="popupheader" style="margin-top:24px;">
+                <h3 class="popheader1">Address</h3>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <hr style="margin-top: 5px;">
+        </div>
+        <div class="editBody">
+            <div class="form-field">
+            <label>Name*</label><br>
+            <input id="personName" type="text" placeholder="name" name="name" maxlength="50" required>
+            <hr>
+            </div>
+            <div class="form-field">
+                <label for="">Pincode*</label> <br>
+                <input id="personPincode" type="tel" maxlength="6" placeholder="380005" name="zip" required>
+                <hr>
+            </div>
+            <div class="form-field">
+                <label>City*</label><br>
+                <input id="personCity" type="text" placeholder="Bangalore" required>
+                <hr>
+            </div>
+            <div class="form-field">
+                <label>State*</label><br>
+                <input id="personState" type="teplaceholder="Karnataka" required>
+                <hr>
+            </div>
+            <div class="form-field">
+                <label>Address*</label><br> 
+                <input id="personHome" type="text" placeholder="address" name="address" maxlength="150" required>
+                <hr>
+            </div>
+            <div class="form-field">
+                <label>Email*</label><br>
+                <input id="personEmail" type="email" placeholder="abc@abc.com" name="email" maxlength="150" required>
+                <hr>
+            </div>
+            <div class="form-field">
+                <label for="">Mobile*</label> <br>
+                <input id="personPhone" type="tel" maxlength="10" placeholder="9876543210" name="mobile" required>
+                <hr>
+            </div>
+            <input type="submit" style="margin-left:28%;" id="submitAddress" class="confirm-btn" value="SUBMIT">
+        </div>
+    </form>
+    </div>
+  
+<div id="wholeContainer">
+    <div class="head">
+        KOOVS.COM
+    </div><br>
+    <div class="btn">
+        <div><button id="bagbtn">MY BAG</button></div>
+        <div class="lin" style="color:grey"><p></p></div>
+        <div><button id="orderbtn" style="color:grey">ORDER SUMMARY</button></div>
+        <div class="lin" style="color:grey"><p></p></div>
+       <div><button id="paybtn" style="color:grey">PAYMENT</button></div>
+    </div><br>
+    <div class="two">
+        <div id="part">
+           <div id="num"> No Items</div>
+           <!-- ---Container Start--- -->
+
+           <div id="container">
+
+           <!-- <div id="productContainer">
+               <div id="imgdiv"><img id="im" src=""/></div>
+                <div id="singleContainer">
+
+                    <div id="productName">Oxolloxo<span id="subname">Vacay Ready Women's Floral Midi Dress</span></div>
+                    <div id="sizeqty">
+                        <div id="sz">Size:</div>
+                        <div id="sizeBox">
+                            <select id="size">
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="xlarge">XL</option>
+                        </select></div>
+
+                        <div id="qty">Qty:</div>
+                         <div id="counter">
+                             <div id="dec"><i class="fas fa-minus fa-xs"></i></div>
+                             <div id="count">1</div>
+                             <div id="inc"><i class="fas fa-plus fa-xs"></i></div>
+                         </div>
+                    </div>
+                    <div id="rate">
+                        <div id="currentPrice">&#x20B9; 1756</div>
+                        <div id="previousPrice">&#x20B9; 2546</div>
+                        <div id="discount">50<span>% OFF</span></div>
+                        
+                    </div>
+                </div>
+             
+                <div id="crossDiv"><i id="cross" class="fas fa-times fa-lg"></i></div>
+                 <div id="heartDiv"><i id="heart" class="far fa-heart fa-lg"></i></div>          
+            </div>    -->
+        
+            
+        </div>
+
+
+
+    </div>
+
+
+        <!-- ---Container End--- -->
+        <div class="part2">
+            <h5>PROMO CODE</h5>
+            <div id="pro">
+            <input id="promo" type="text" placeholder="Please enter here"/>
+            <span><button id="promobtn">APPLY</button></span>
+            </div>
+            <h5 id="offer" style="margin-bottom:15px;">OFFER</h5>
+            <div id="code">
+                <div>
+                    <h5 >HELLO30</h5>
+                    <p id="line1" >Valid Till 10 May 2022 10:12 pm</p>
+                    <p id="line2">30% Off on all products.  </p>
+                </div>
+                <div><button>VIEW ALL</button></div>
+            </div><br>
+            <h5>PRICE SUMMARY</h5>
+            <div class="price">
+                 <div id="lin1" style="margin-top:12px;">BAG TOTAL<span id="spn">Details</span></div>
+                 <div id="lin1">:</div>
+                 <div id="amount">bag total</div>
+                 <div id="lin2">SHIPPING CHARGES<span id="spn2"><i class="fas fa-info-circle fa-m"></i></span></div>
+                 <div>:</div>
+                 <div id="green">FREE</div>
+                 <div id="lin2">APPLICABLE TAX & CHARGES</div>
+                 <div>:</div>
+                 <div id="tax">tax</div>
+                 <div id="lin1">TOTAL PAYABLE<p id="li">PRICES INCLUSIVE OF ALL TAXES</p></div>
+                 <div id="lin1">:</div>
+                 <div id="total">total</div>
+            </div><br>
+            <button id="lastbtn" type="button">PROCEED TO CHECKOUT</button>
+        </div>
+    </div>
+     <div id="lastgap"></div>
+    <div class="footbox">
+        <div class="footbox2">
+            <div>
+                <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRez1GmkQhmgAWtJXa-vjgQb6VDlYLZUTm4jGksPA4w2aQtaceKcstxMLA4ut4UGsul5Y&usqp=CAU" alt="logo"/>
+            </div>
+            <div id="scnd">
+                <div>SECURE SHOPPING</div>
+                <div id="sm">Safe spending with ssl technology</div>
+            </div>
+        </div>
+         <div class="footbox2">
+             <div>
+                 <img id="logo"src="https://www.electrohome.com/media/wysiwyg/Electrohome/Policies/order-confirmation.png" alt="picture"/>
+             </div>
+             <div id="scnd">
+                 <div>FREE RETURNS</div>
+                 <div id="sm">Not quite right? no worries sent it back for free</div>
+             </div>
+         </div>         
+        <div class="footbox2">
+            <div>
+                <img id="logo" src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/c8136c8b-a53b-49ed-9844-f65cbce4bbd8/Personal/Pay/Cards/Millennia%20Cards/Millennia%20Debit%20Card/Millennia_VISA_Mst_debit-card_264x167.png" alt="logo"/>
+            </div>
+            <div id="scndd">
+                <div>ALLL PAYMENT OPTIONS</div>
+                <div id="sm">Multiple payment options available</div>
+            </div>
+            
+         </div>
+    </div><br>
+    <h1 id="ulast-line">
+        KOOVS.COM <span><i class="far fa-copyright fa-xs"></i></span> 2021 | All Rights Reversed
+    </h1><br>
+</div>
+    <script src="cart.js"></script>
+</body>
+</html>
