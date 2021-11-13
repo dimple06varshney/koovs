@@ -1,0 +1,49 @@
+form{
+    display: flex;
+    flex-direction:column;
+    width: 35%;
+    margin:5% auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 3% 6%;
+    /* margin-top: 5%; */
+}
+form select, input{
+    margin-bottom: 3%;
+    padding: 2%;
+}
+form >h1{
+    text-align: center;
+}
+
+#submit{
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    border-radius: 7px;
+    padding: 2%;
+    color: white;
+    font-size: 18px;
+}
+#catewomen{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    form{
+        width: 60%;
+    }
+    
+  form h1{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:420px) {
+    form{
+        width:70%
+    }
+    form h1{
+        font-size: 18px;
+    }
+    label, #submit{
+        font-size: 12px;
+    }
+}

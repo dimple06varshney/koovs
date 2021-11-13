@@ -27,9 +27,10 @@
         var email=document.querySelector('#Lemail').value;
         var pass=document.querySelector('#Lpass').value;
 
-        // if(email=="admin"&& pass=="admin"){
-        //     window.location.href="admin.html"
-        // }else{
+        if(email=="admin"&& pass=="admin"){
+            window.location.href="admin.html"
+        }
+        // else{
         //                 for(var i=0;i<regUsers.length;i++){
         //                     if(regUsers[i].emailAddress==email && regUsers[i].password==pass){
         //                         window.location.href="prod.html"
