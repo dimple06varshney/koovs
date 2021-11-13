@@ -10,7 +10,7 @@ var images=["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg","img6.jpg","i
 
  var productArr = [
     product1={
-        link1:"https://www.koovs.com/sheltr-mens-tshirts-141086-158150.html",
+        link1:"products.html",
         brand1:"SHELTR",
         product1:"Front Print Round Neck",
         currentPrice1:"210",
@@ -494,3 +494,22 @@ setInterval(function(){
 
 }
 
+
+var cartProduct = JSON.parse(localStorage.getItem("cartItem")) || [];
+cartLength = cartProduct.length;
+var wishlistItem = JSON.parse(localStorage.getItem("wishListItem")) || [];
+wishlistLength = wishlistItem.length;
+console.log(wishlistLength);
+if(wishlistLength == 0){
+    document.getElementById("wishlistLength").style.display ="none";
+}else{
+    document.getElementById("wishlistLength").textContent = wishlistLength;
+    document.getElementById("wishlistLength").style.display ="inline-block";
+}
+
+if(cartLength == 0){
+    document.getElementById("cartLength").style.display ="none";
+}else{
+    document.getElementById("cartLength").textContent = cartLength;
+    document.getElementById("cartLength").style.display ="inline-block";
+}
