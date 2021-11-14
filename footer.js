@@ -1,4 +1,13 @@
 document.write(`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>footer</title>
+     <script src="https://kit.fontawesome.com/1e25a4685d.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="/css/all.min.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+</head>
+<body>
 <section class="ufooter">
     <div class="ubox1">
         <div class="uabout">
@@ -202,4 +211,7 @@ document.write(`
 </section><br>
     <h1 id="ulast-line">
         KOOVS.COM <span><i class="far fa-copyright fa-xs"></i></span> 2021 | All Rights Reversed
-    </h1><br> `)
+    </h1><br>   
+</body>
+</html>
+<script src="footerJS.js"></script>`)
