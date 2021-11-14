@@ -129,6 +129,8 @@ div#slider1 {
     overflow: hidden;
     margin-bottom: 3%;
     /* border:1px solid red; */
+    z-index: 10;
+    background-color: transparent;
 }
 div#slider1 figure img {
     /* width: 33.3%; */

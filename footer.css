@@ -37,7 +37,7 @@
    text-transform: capitalize;
    font-weight:800;
    position: relative;
-   margin-bottom: -5px;
+   /* margin-bottom: -5px; */
 }
 .ufooter-col ul li:not(:last-child){
    margin-bottom: 2px;
@@ -135,14 +135,13 @@ text-decoration: none;
 .ubox2{
 margin: auto;
 width: 90%;
-margin-top: 20px;
 }
 .uabbutton--active+.uabcontent{
    display: block;
 }
 .uab{
 font-size: 13px;
-margin-left: 20px;
+margin: 10px;
 color: #333333;
 }
 .ubold{

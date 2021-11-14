@@ -287,13 +287,12 @@ z-index: 2;
     /* overflow: hidden;
     width: calc(100vw - 65vw);
     max-width: 100%; */
-
+}
      @media(max-width:998px) {
 #reg-error {
 width: calc(100vw - 35vw);
 max-width: 100%;
-}
-     
+}     
 #pwd-reg-error{
     color: red;
     font-size: 12px;
@@ -333,15 +332,22 @@ input[type=radio]{
     grid-gap: 5px;
     float: right;
 } */
+ }
+@media only screen and (max-width:998px) {
+    .form-control {
+    width: calc(100vw - 25vw);
+    max-width: 100%;
+    }
+} 
 @media only screen and (max-width: 767px){
 #signup-loader {
     left: 35vw;
     margin-top: 10px;
+ }
 }
-
 @media(max-width:998px) {
     .form-control {
     width: calc(100vw - 25vw);
     max-width: 100%;
     }
-    }
+}

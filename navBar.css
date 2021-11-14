@@ -142,9 +142,7 @@ a{
     height: 360px;
     z-index: 100;
 }
-/* .DmenMenu{
-    display: none;
-} */
+
 .DmenMenu> div, .DwomenMenu>div{
     vertical-align: top;
     padding:1% 4%;
@@ -204,11 +202,6 @@ a{
     height: 100px;
     z-index: 108;
     background-color: white;
-}
-.DmenMenu,.DwomenMenu{
-    background-color: white;
-    z-index: 10;
-    opacity: 1;
 }
 .DtrendTitle{
     font-size: 0.75rem;
@@ -276,7 +269,7 @@ a{
     width: 80%;
     float: left;
     position: fixed;
-    z-index: 5;
+    z-index: 200;
     height: 100%;
     background: #fff;
     opacity: 1;

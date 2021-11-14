@@ -207,7 +207,7 @@ a:hover{
         margin-top: 0px;
     }
     #blog_container2{
-        display: flex;
+        display: flex !important;
         /* grid-template-columns:100%;
         grid-template-rows: repeat(20,1fr);
         grid-gap: 0em;

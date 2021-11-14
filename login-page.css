@@ -198,7 +198,7 @@ z-index: 2;
     min-height: 26px;
     margin-left: 5px;
     visibility: hidden;
-
+}
 @media(max-width:998px) {
 #Lreg-error {
 width: calc(100vw - 35vw);
@@ -217,12 +217,13 @@ input[type=radio]{
     width: auto;
     height: auto;
 }
+}
 @media only screen and (max-width: 767px){
 #login-loader {
     left: 35vw;
     margin-top: 10px;
 }
-
+}
 @media(max-width:998px) {
     .Lform-control {
     width: calc(100vw - 25vw);

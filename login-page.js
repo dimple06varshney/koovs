@@ -47,7 +47,7 @@
     userData.forEach(element => {
         if(element.emailAddress == email && element.password == pass){
             alert("Log In Successfully");
-            window.location.href="prod.html";
+            window.location.href="products.html";
             count++;
         }
         });

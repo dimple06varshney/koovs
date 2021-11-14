@@ -10,11 +10,13 @@ document.write(`<div class="DkoovsNav">
             </div>
             <div class="DwishListBag">
                 <div class="DwishList">
-                    <a href="cart.html"><div class="DwishIcon"></div>
+                    <a href="wishlist.html"><div class="DwishIcon"></div>
+                    <span id="wishlistLength">0</span>
                     <span id="w">WISHLIST</span></a>
                 </div>
                 <div class="Dbag">
                     <a href="cart.html" id="Dvisible"><div class="BagIcon"></div>
+                    <span id="cartLength">0</span>
                     <span id="bag">BAG</span></a>
                     <div class="Demptybag">Your bag is empty</div>
                 </div>
@@ -70,7 +72,7 @@ document.write(`<div class="DkoovsNav">
                 </div>
             </div>
             <div class="DwomenDiv">
-                <a href="women.html">WOMEN</a>
+                <a href="#">WOMEN</a>
                 <div class="DwomenMenu">
                     <div>
                         <a href=""><li>NEW ARRIVALS:CLOTHING</li></a>
@@ -254,7 +256,7 @@ document.write(`<div class="DkoovsNav">
             </div>
             <div id="womenMenuCont">
                 <div id="womenIConBox">
-                    <div id="Dwritewomen" class="Dbolder"><a href="women.html">WOMEN</a></div>
+                    <div id="Dwritewomen" class="Dbolder">WOMEN</div>
                     <div id="DwomenListIcon">
                         <div id="DwomenspanIcon"><div id="DwomencolapseIcon"></div></div>
                     </div>
@@ -330,7 +332,7 @@ document.write(`<div class="DkoovsNav">
             <div><a href="Blog.html" class="addpaddingLeft">THE BLOG</a></div>
             <div><a href="kovvsxyou.html"class="addpaddingLeft">KOOVSXYOU</a></div>
             <div><a href="koovsInStyle.html"class="addpaddingLeft">IN STYLE OF</a></div>
-            <div><a href="" class="addpaddingLeft" >MY ACCOUNT</a></div>
+            <div><a href="#" class="addpaddingLeft" >MY ACCOUNT</a></div>
             <div><a href="cart.html" class="addpaddingLeft" >MY BAG</a></div>
             <div><a href="contact.html" class="addpaddingLeft">CONTACT US</a></div>
         </div>
