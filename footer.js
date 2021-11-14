@@ -199,13 +199,13 @@ document.write(`
                     <i><img id="uimb" src="footerimages/googleplay.png" alt="Available App On Google Play"/></i></a>
             </div>
             <h5 class="ubold" style="margin-bottom: 0px;">CONNECT WITH US</h5>
-              <div class="usocial-links">
-        <a href="https://www.facebook.com/koovs" alt="facebook"> <img class="image-icon" src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt=""></a>
+//               <div class="usocial-links">
+//         <a href="https://www.facebook.com/koovs" alt="facebook"> <img class="image-icon" src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt=""></a>
 
-        <a href="https://twitter.com/mykoovs"alt="twitter"><img class="image-icon" src="https://cdn-icons-png.flaticon.com/128/25/25347.png" alt=""></a>
-        <a href="https://www.instagram.com/koovsfashion/"alt="instagram"><img class="image-icon" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670274.png?token=exp=1636888264~hmac=de03b727936ec0aca9ab5f7d59f71a20" alt=""></a>
-        <a href="https://www.youtube.com/user/Koovsdotcom"alt="youtube"><img class="image-icon" src="https://cdn-icons.flaticon.com/png/512/717/premium/717426.png?token=exp=1636887336~hmac=34e342b04697564bd31fb10196533747" alt=""></a>
-</div>
+//         <a href="https://twitter.com/mykoovs"alt="twitter"><img class="image-icon" src="https://cdn-icons-png.flaticon.com/128/25/25347.png" alt=""></a>
+//         <a href="https://www.instagram.com/koovsfashion/"alt="instagram"><img class="image-icon" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670274.png?token=exp=1636888264~hmac=de03b727936ec0aca9ab5f7d59f71a20" alt=""></a>
+//         <a href="https://www.youtube.com/user/Koovsdotcom"alt="youtube"><img class="image-icon" src="https://cdn-icons.flaticon.com/png/512/717/premium/717426.png?token=exp=1636887336~hmac=34e342b04697564bd31fb10196533747" alt=""></a>
+// </div>
         </div>
    </div> <br>   
 </section><br>
