@@ -38,20 +38,20 @@ document.write(`<div class="DkoovsNav">
                         <a href="#"><li>Trousers & Chinos</li></a>
                     </div>
                     <div>
-                        <a href="#"><li>Vests</li></a>
-                        <a href="#"><li>Knitwear</li></a>
-                        <a href="#"><li>Shorts</li></a>
-                        <a href="#"><li>Hoodies & Sweatshirts</li></a>
-                        <a href="#"><li>Coats & Jackets</li></a>
-                        <a href="#"><li>Sunglasses</li></a>
-                        <a href="#"><li>Footwear</li></a>
-                        <a href="#"><li>BACK IN STOCK</li></a>
+                        <a href="products.html"><li>Vests</li></a>
+                        <a href="products.html"><li>Knitwear</li></a>
+                        <a href="products.html"><li>Shorts</li></a>
+                        <a href="products.html"><li>Hoodies & Sweatshirts</li></a>
+                        <a href="products.html"><li>Coats & Jackets</li></a>
+                        <a href="products.html"><li>Sunglasses</li></a>
+                        <a href="products.html"><li>Footwear</li></a>
+                        <a href="products.html"><li>BACK IN STOCK</li></a>
                     </div>
                     <div>
                         <div class="DItmesBlod">BRANDS</div>
                          <a href="#"><li>KOOVS</li></a>
                          <a href="#"><li>Blue Saint</li></a>
-                         <a href="#"><li>One/Zero by KOOVS</li></a>
+                         <a href="onezero.html"><li>One/Zero by KOOVS</li></a>
                          <a href="#"><li>Kultprit</li></a>
                          <a href="#"><li>Realm</li></a>
                          <a href="#"><li>A-Z of Brands</li></a>
@@ -72,35 +72,35 @@ document.write(`<div class="DkoovsNav">
                 </div>
             </div>
             <div class="DwomenDiv">
-                <a href="#">WOMEN</a>
+                <a href="women.html">WOMEN</a>
                 <div class="DwomenMenu">
                     <div>
-                        <a href=""><li>NEW ARRIVALS:CLOTHING</li></a>
-                        <a href=""><li>NEW ARRIVALS:FOOTWEAR & ACCESSORIES</li></a>
+                        <a href="products.html"><li>NEW ARRIVALS:CLOTHING</li></a>
+                        <a href="products.html"><li>NEW ARRIVALS:FOOTWEAR & ACCESSORIES</li></a>
                         <div class="DItmesBlod">PRODUCTS</div>
-                        <a href=""><li>Tops</li> </a>
-                        <a href=""><li>Dresses</li></a>
-                        <a href=""><li>Sports & Active Wear</li></a>
-                        <a href=""><li>Jeans</li></a>
+                        <a href="products.html"><li>Tops</li> </a>
+                        <a href="products.html"><li>Dresses</li></a>
+                        <a href="products.html"><li>Sports & Active Wear</li></a>
+                        <a href="products.html"><li>Jeans</li></a>
                     </div>
                     <div>
-                        <a href=""><li>Skirts</li></a>
-                        <a href=""><li>Trousers & Leggings</li></a>
-                        <a href=""><li>Cardigans & Pullovers</li></a>
-                        <a href=""><li>Shorts</li></a>
-                        <a href=""><li>Jumpsuits & Playsuits</li></a>
-                        <a href=""><li>Coats & Jackets</li></a>
-                        <a href=""><li>Shoes</li></a>
-                        <a href=""><li>Bags & Purses</li></a>
+                        <a href="products.html"><li>Skirts</li></a>
+                        <a href="products.html"><li>Trousers & Leggings</li></a>
+                        <a href="products.html"><li>Cardigans & Pullovers</li></a>
+                        <a href="products.html"><li>Shorts</li></a>
+                        <a href="products.html"><li>Jumpsuits & Playsuits</li></a>
+                        <a href="products.html"><li>Coats & Jackets</li></a>
+                        <a href="products.html"><li>Shoes</li></a>
+                        <a href="products.html"><li>Bags & Purses</li></a>
                     </div>
                     <div>
-                        <a href=""><li>BACK IN STOCK</li></a>
+                        <a href="products.html"><li>BACK IN STOCK</li></a>
                         <div class="DItmesBlod">BRANDS</div>
-                        <a href=""><li>KOOVS</li></a>
-                        <a href=""><li>Blue Saint</li></a>
-                        <a href=""><li>One/Zero by KOOVS</li></a>
-                        <a href=""><li>Oxolloxo</li></a>
-                        <a href=""><li>Femella</li></a>
+                        <a href="products.html"><li>KOOVS</li></a>
+                        <a href="products.html"><li>Blue Saint</li></a>
+                        <a href="onezero.html"><li>One/Zero by KOOVS</li></a>
+                        <a href="products.html"><li>Oxolloxo</li></a>
+                        <a href="products.html"><li>Femella</li></a>
                     </div>
                     <div>
                         <a href=""><li>A-Z of Brands</li></a>
@@ -256,15 +256,15 @@ document.write(`<div class="DkoovsNav">
             </div>
             <div id="womenMenuCont">
                 <div id="womenIConBox">
-                    <div id="Dwritewomen" class="Dbolder">WOMEN</div>
+                    <div id="Dwritewomen" class="Dbolder"><a href="women.html">WOMEN</a></div>
                     <div id="DwomenListIcon">
                         <div id="DwomenspanIcon"><div id="DwomencolapseIcon"></div></div>
                     </div>
                 </div>
                 <div id="DwomensubListExpand">
                   <ul> 
-                    <li><a href="#">NEW ARRIVALS:CLOTHING</a></li>
-                    <li><a href="#">NEW ARRIVALS:FOOTWEAR & ACCESSORIES</a></li>
+                    <li><a href="products.html">NEW ARRIVALS:CLOTHING</a></li>
+                    <li><a href="products.html">NEW ARRIVALS:FOOTWEAR & ACCESSORIES</a></li>
                     <!-- Product list -->
                     <li class="DwomenprodList">
                        <div class="Womenproductbox addpaddingLeft" id="Dwomenproducts">
@@ -274,22 +274,22 @@ document.write(`<div class="DkoovsNav">
                             </div>
                             <!-- Product Sub List -->
                             <ul id="womenprodSubList">
-                                <li> <a href="">Tops</a></li>
-                                <li> <a href="">Dresses</a></li>
-                                <li> <a href="">Sports & Active Wear</a></li>
-                                <li> <a href="">Jeans</a></li>
-                                <li> <a href="">Skirts</a></li>
-                                <li> <a href="">Trousers & Leggings</a></li>
-                                <li> <a href="">Cardigans & Pullovers</a></li>
-                                <li> <a href="">Shorts</a></li>
-                                <li> <a href="">Jumpsuits & Playsuits</a></li>
-                                <li> <a href="">Coats & Jackets</a></li>
-                                <li> <a href="">Shoes</a></li>
-                                <li> <a href="">Bags & Purses</a></li>
+                                <li> <a href="products.html">Tops</a></li>
+                                <li> <a href="products.html">Dresses</a></li>
+                                <li> <a href="products.html">Sports & Active Wear</a></li>
+                                <li> <a href="products.html">Jeans</a></li>
+                                <li> <a href="products.html">Skirts</a></li>
+                                <li> <a href="products.html">Trousers & Leggings</a></li>
+                                <li> <a href="products.html">Cardigans & Pullovers</a></li>
+                                <li> <a href="products.html">Shorts</a></li>
+                                <li> <a href="products.html">Jumpsuits & Playsuits</a></li>
+                                <li> <a href="products.html">Coats & Jackets</a></li>
+                                <li> <a href="products.html">Shoes</a></li>
+                                <li> <a href="products.html">Bags & Purses</a></li>
                             </ul>
                         </div> 
                     </li>
-                    <li><a href="#">BACK IN STOCK</a></li>
+                    <li><a href="products.html">BACK IN STOCK</a></li>
                   <!-- brand list   -->
                     <li class="DwomenbrandList">
                         <div class="Dwomenbrandbox addpaddingLeft" id="Dwomenbrand">
@@ -299,12 +299,12 @@ document.write(`<div class="DkoovsNav">
                            </div>
                            <!-- brand sub-list -->
                             <ul id="DwomenBrandSubList">
-                               <li><a href="#">KOOVS</a></li> 
-                               <li><a href="#">Blue Saint</a></li>
-                               <li><a href="#">One/Zero by KOOVS</a></li>
-                               <li><a href="#">Oxolloxo</a></li>
-                               <li><a href="#">Femella</a></li>
-                               <li><a href="#">A-Z of Brands</a></li>
+                               <li><a href="products.html">KOOVS</a></li> 
+                               <li><a href="products.html">Blue Saint</a></li>
+                               <li><a href="onezero.html">One/Zero by KOOVS</a></li>
+                               <li><a href="products.html">Oxolloxo</a></li>
+                               <li><a href="products.html">Femella</a></li>
+                               <li><a href="products.html">A-Z of Brands</a></li>
                             </ul>
                         </div>
                     </li>
