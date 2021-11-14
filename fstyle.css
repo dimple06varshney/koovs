@@ -1,0 +1,161 @@
+body{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+/* .vmaindiv{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+} */
+.vcontainer
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    /* border: hotpink 1px solid; */   
+}
+.vcontainer div a img{
+    width:100%;
+}
+@media screen and (max-width:991px){
+   .vcontainer{
+       grid-template-columns: auto;
+   }
+    
+}
+.vcontainer>div{
+margin-top:5%;
+/* border: indigo 1px solid; */
+}
+.vflex{
+    display:flex;
+    justify-content: center;
+    /* border:1px red solid; */
+    margin-top: 3%;
+    /* justify-content: space-around;
+    width: 100%; */
+}
+.vfleximg{
+    border:1px solid green;
+}
+.vflex1{
+    display:flex;
+    margin-top: 3%;
+    justify-content: center;
+    /* border:1px blue solid; */
+}
+.vflex2{
+    display: flex;
+    margin-top: 3%;
+    /* border:greenyellow solid 1px; */
+    /* justify-content: stretch; */
+    
+}
+#vmyvideo{
+    cursor: pointer;
+    margin:0%;
+    object-fit: cover;
+
+}
+.vheader{
+    display:flex;
+    /* border:2px solid #D1D1D1; */
+    margin-top:3%;
+}
+.vbottom{
+    display:flex;
+    width:100%;
+    height: 470px;
+    /* border:1px solid blue; */
+    gap:2%;
+}
+#vdiv{
+    /* border:1px red solid; */
+    height:100%;
+    width:24%;
+    cursor: pointer;
+    display: block;
+}
+#vidiv1{
+    /* border:1px solid green; */
+    width:100%;
+    height:79%;
+}
+#vidiv1>img{
+    width:100%;
+    height:100%;
+}
+#vidiv2{
+    /* border:1px solid black; */
+    height:20%;
+    position: relative;
+}
+#hov:hover{
+    color:white;
+    background-color: black;
+}
+/* -----------slider2 code ---------------- */
+div#slider {
+    overflow: hidden;
+    /* border:1px solid green; */
+}
+div#slider figure img {
+    width: 33.3%;
+    float: left;
+}
+div#slider figure {
+    position: relative;
+    width: 300%;
+    margin: 0%;
+    left: 0%;
+    animation: 4s slidy infinite;
+    animation-delay: 4s;
+}
+@keyframes slidy {
+    0%{
+        left:0%
+    }
+    50%{
+        left:-100%;
+    }
+    100%{
+        left:-200%
+    }
+}
+/* ------------slider---------------- */
+div#slider1 {
+    position: sticky;
+    overflow: hidden;
+    margin-bottom: 3%;
+    /* border:1px solid red; */
+}
+div#slider1 figure img {
+    /* width: 33.3%; */
+    width:25%;
+    height:30%;
+    float: left;
+}
+div#slider1 figure {
+    position: relative;
+    /* width: 300%; */
+    width:400%;
+    margin: 0%;
+    left: 0%;
+    animation-delay: 15s;
+    animation: 5s main infinite ;
+}
+@keyframes main {
+    0%{
+        left:0%
+    }
+    25%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    100%{
+        left:-300%;
+    } 
+}
