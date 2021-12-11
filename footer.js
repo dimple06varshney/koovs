@@ -2,7 +2,8 @@ document.write(`
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>footer</title>
+ 
+    <title>Koovs</title>
      <script src="https://kit.fontawesome.com/1e25a4685d.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="/css/all.min.css"/>
     <link rel="stylesheet" href="footer.css"/>
