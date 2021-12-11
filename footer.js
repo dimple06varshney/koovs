@@ -2,8 +2,8 @@ document.write(`
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-    <title>Koovs</title>
+<link rel="shortcut icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0584/9399/3141/files/favicon-32x32_32x.png?v=1627207424"> 
+     <title>Koovs</title>
      <script src="https://kit.fontawesome.com/1e25a4685d.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="/css/all.min.css"/>
     <link rel="stylesheet" href="footer.css"/>

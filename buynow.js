@@ -1,3 +1,18 @@
+
+//Addition to redirect to  page after click on submit button //Added by Dimple
+let Dsubmit = document.getElementById("submitAddress");
+Dsubmit.addEventListener("click",goToOrderSum)
+function goToOrderSum(){
+  window.location.href = "ordersum.html";
+}
+
+
+
+
+
+
+
+
 var selectedItemArray = JSON.parse(localStorage.getItem("selectedItem"));
 var indexNo = selectedItemArray[0].productNo;
 var allProducts = JSON.parse(localStorage.getItem("productData"));
@@ -212,6 +227,5 @@ document.getElementById("amount").textContent = item.currentPrice;
 document.getElementById("confirmBtn").addEventListener("click",function(){
     window.location.href="ordersum.html";
 })
-
 
 
